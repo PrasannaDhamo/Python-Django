@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Homepage</title>
+
+	<style>
+		body {
+			font-family: 'Poppins', sans-serif;
+    		font-size: 100%;
+			background-image: url(static/img/3.jpg);
+    		background-size: cover;
+    		-webkit-background-size: cover;
+    		-moz-background-size: cover;
+    		-o-background-size: cover;
+    		-ms-background-size: cover;
+    		background-attachment: fixed;
+			text-align: center;	
+		}
+	</style>
+	<!-- //Meta-Tags -->
+	<!-- Stylesheets -->
+	<link rel="{% static "styles/font-awesome.css" %}" rel="stylesheet">
+	<link rel="{% static "styles/style.css" %}" rel="stylesheet">
+	<!--// Stylesheets -->
+	<!--fonts-->
+	<!-- title -->
+	<!-- body -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
+	<!--//fonts-->
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <div class="form-end">
+        <button onclick="location.href= '/update';" class = "submit" style = "background: linear-gradient(to right, #ffbfbf, #cd26ee); float: center; margin-top: 25px;">Update User</button>
+        <button onclick="location.href= '/delete';" class = "submit" style = "background: linear-gradient(to right, #ffbfbf, #cd26ee); float: center; margin-top: 25px;">Delete User</button>
+        <button onclick="location.href= '/';" class = "submit" style = "background: linear-gradient(to right, #ffbfbf, #cd26ee); float: center; margin-top: 25px;">Sign Out</button>
+	</div>
+	</div>
+	<!-- //form ends here -->
+	<!--copyright-->
+	<div class="copy-wthree">
+		<p>© 2020 Registration Form | Design by
+			<a href="http://prasannasales.weebly.com/" target="_blank">Prasanna_D</a>
+		</p>
+	</div>
+	<!--//copyright-->
+</body>
+
+</html>
